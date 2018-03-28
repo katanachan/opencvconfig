@@ -1,0 +1,1 @@
+Instructions: Clone this repository into your home directory and execute the install script as "sudo bash install.sh". The last two lines are for if you are using a NVIDIA Titan XP (PASCAL). If not, uncomment it.
