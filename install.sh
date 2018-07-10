@@ -1,3 +1,4 @@
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt update
 sudo apt upgrade
 cd ~
@@ -17,5 +18,3 @@ cd build
 cmake ..
 make && sudo make install
 sudo bash ~/opencvconfig/linkscript.sh
-wget http://us.download.nvidia.com/XFree86/Linux-x86_64/390.42/NVIDIA-Linux-x86_64-390.42.run
-sudo bash NVIDIA-Linux-x86_64-390.42.run
